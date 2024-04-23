@@ -1,0 +1,9 @@
+/* This file uses nested declarations to set text color for button and change it on hover */
+
+button {
+  color: #FF0000;
+
+  &:hover {
+    color: #00FF00;
+  }
+}
