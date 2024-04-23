@@ -1,0 +1,15 @@
+/* This file uses the @extend directive to share common styles and add specific attributes to different classes */
+
+.info {
+  font-size: 12px;
+}
+
+.success {
+  @extend .info;
+  color: #00FF00;
+}
+
+.warning {
+  @extend .info;
+  color: #FF0000;
+}
