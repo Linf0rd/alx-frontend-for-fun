@@ -1,0 +1,15 @@
+/* This file imports color variables from 10-colors.scss to set text color for various classes */
+
+@import '10-colors.scss';
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
