@@ -1,0 +1,14 @@
+/* This file uses a mixin to set margin-left and margin-right for body and div tags */
+
+@mixin margin-x($margin) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+body {
+  @include margin-x(10px);
+}
+
+div {
+  @include margin-x(15px);
+}
